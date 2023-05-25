@@ -147,6 +147,7 @@ void DoubleLinkedList::hapus() {
 void DoubleLinkedList::searchData() {
 	if (listEmpty() == true) {
 		cout << "\nList is empty" << endl;
+
 	}
 	Node* prev, * curr;
 	prev = curr = NULL;
@@ -160,4 +161,7 @@ void DoubleLinkedList::searchData() {
 		cout << "\nRecord number: " << curr->noMhs << endl;
 		cout << "\nName: " << curr->name << endl;
 	}
+}
+int main() {
+
 }
