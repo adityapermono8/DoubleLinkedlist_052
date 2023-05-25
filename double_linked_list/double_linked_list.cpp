@@ -178,6 +178,8 @@ int main() {
 			char ch;
 			cin >> ch;
 
+			switch (ch) {
+			
 		}
 	}
 }
