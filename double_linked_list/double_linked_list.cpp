@@ -129,3 +129,7 @@ void DoubleLinkedList::descending() {
 		}
 	}
 }
+
+void DoubleLinkedList::hapus() {
+
+}
